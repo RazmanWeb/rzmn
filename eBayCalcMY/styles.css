@@ -1,0 +1,120 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px; /* Increased font size */
+    font-weight: bold;
+}
+
+.malaysia-flag {
+    width: 80px; /* Increased size */
+    height: auto;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Labels and Inputs */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* Highlighted Inputs */
+form input.highlight-input {
+    background-color: #fffae6; /* Yellow background */
+    border: 1px solid #ffcc00;
+    border-radius: 4px;
+}
+
+form input.highlight-input:focus {
+    background-color: #fff5cc; /* Slightly lighter yellow when focused */
+    border-color: #ffa500;
+    outline: none;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input:focus,
+form select:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.calculate-btn,
+.reset-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.reset-btn {
+    background-color: #dc3545;
+}
+
+.calculate-btn:hover,
+.reset-btn:hover {
+    opacity: 0.9;
+}
+
+/* Results Section */
+.results-label {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.section-label {
+    color: blue;
+    font-weight: bold;
+}
+
+#results p span {
+    font-weight: bold;
+    color: #555;
+}
